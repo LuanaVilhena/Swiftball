@@ -5,7 +5,7 @@ CREATE DATABASE swiftball;
 		nome VARCHAR(255) NOT NULL,
 		telefone CHAR(11) NOT NULL,
 		email VARCHAR(255) NOT NULL UNIQUE,
-		dados bancarios VARCHAR NOT NULL 
+		dados_bancarios VARCHAR(50) NOT NULL 
 	);
 
 	CREATE TABLE figurino (
