@@ -1,0 +1,29 @@
+--Inserindo dados na tabela "usuario":
+
+INSERT INTO usuario (nome, telefone, email, dados bancarios) VALUES
+('Luana Freire Vilhena', '(83) 99999-9999', 'luanafreirevilhena@gmail.com', 'pix: luanafreirevilhena@gmail.com'),
+('Taylor Alison Swift', '(11) 88888-8888', 'taylorswift13@gmail.com', 'pix: taylorswift13@gmail.com');
+
+--Inserindo dados na tabela "figurino":
+
+INSERT INTO figurino (era, estilo) VALUES 
+(‘Fearless’, ‘Dourado’),
+(‘1989’, ‘Verde’);
+
+--Inserindo dados na tabela "aplauso":
+
+INSERT INTO aplauso (duracao) VALUES 
+(‘3 minutos’),
+(‘2 minutos’);
+
+--Inserindo dados na tabela "instrumento":
+
+INSERT INTO instrumento (era, cor) VALUES 
+(‘Lover’, ‘Azul’),
+(‘Speak Now’, ‘Verde’);
+
+--Inserindo dados na tabela "surpresa":
+
+INSERT INTO surpresa (instrumento, musica) VALUES 
+(‘piano’, ‘mirrorball’),
+(‘violao’, ‘red’);
